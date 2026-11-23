@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayudanos a publicar una noticia nueva</title>
+</head>
+<body>
+    <h1>Escribe una noticia con nosotros</h1>
+     <nav>
+        <a href="/index.html"> Home</a> |
+        <a href="/NOTICIA1.HTML"> BOCA campeón de la SUDAMERICANA</a> |
+        <a href="/noticianueva.html">Comparte tu noticia</a> |
+    </nav>
+    <h2>Describe la noticia a publicar llenando el siguiente formulario</h2>
+    <form action="#">
+            <label for="nombre">Ingrese sus nombres y apellidos:</label>
+            <br><br>
+            <input type="text" id="nombre" placeholder="Nombre completo" required>
+            <br><br>
+            <label for="cedula">Ingrese su número de cédula:</label>
+            <br><br>
+            <input type="text" id="cedula" maxlength="10" minlength="10" placeholder="Ej: 1234567890" required>
+            <br><br>
+            <label for="email">Ingrese su email:</label>
+            <br><br>
+            <input type="email" id="email" placeholder="Correo electrónico" required>
+            <br><br>
+
+         
+    
+            <label for="telefono">Ingrese su número de teléfono:</label>
+            <br><br>
+            <input type="tel" id="telefono" placeholder="+593" required>
+            <br><br>
+
+            <label for="fecha_nacimiento">Ingrese la fecha de los acontecimientos;</label>
+            <br><br>
+            <input type="date" id="fecha_nacimiento" required>
+            <br><br>
+
+             <label for="ciudad">Ciudad de los hechos:</label>
+            <select name="ciudad" id="ciudad">
+                <option value="" disabled selected>Seleccionar</option>
+                <option value="quito">Quito</option>
+                <option value="latacunga">Latacunga</option>
+                <option value="ibarra">Ibarra</option>
+                <option value="cuenca">Cuenca</option>
+                <option value="otro">Otro</option>
+            </select>
+            <br><br>
+             <label for="foto">Adjuntar fotografía de evidencia sobre el acontecimiento:</label>
+            <br><br>
+            <input type="file" id="foto" accept="image/*">
+            <br><br>
+            <br><br>
+             <button type="button">Botón simple</button>
+            <input type="submit" value="Registrar paciente">
+            <button type="reset">Limpiar</button>
+</body>
+</html>
